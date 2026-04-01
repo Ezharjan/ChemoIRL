@@ -1,0 +1,19 @@
+# robots.txt for Chemo-IRL Project
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (GitHub Pages will generate this automatically)
+Sitemap: https://ezharjan.github.io/Chemo-IRL/sitemap.xml
+
+
+# Disallow crawling of specific directories if needed
+# Uncomment and modify as needed:
+# Disallow: /fig/
+# Disallow: /__pycache__/
+
+# Allow important files to be indexed
+Allow: /README.md
+Allow: /CITATION.cff
+Allow: /LICENSE
