@@ -56,6 +56,14 @@
         .mermaid {
             text-align: center;
         }
+        .video-wrapper {
+            max-width: 820px;
+        }
+        .video-wrapper .ratio {
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.15);
+        }
     </style>
 </head>
 <body>
@@ -74,6 +82,16 @@
             <h2>Overview</h2>
             <p>Chemo-IRL is a benchmark implementation for DeFi intent discovery via Maximum Entropy Inverse Reinforcement Learning (MaxEnt IRL). The project models intent discovery as sequential reward inference from state-action trajectories, with a bio-mimetic temporal market-gradient state component.</p>
             <p>The implementation follows the paper setup with state representation combining user features, market data, and temporal gradients, an action space of 1000 possible actions, and obfuscation during data generation.</p>
+        </section>
+
+        <section id="video" class="my-5">
+            <h2>Video Overview</h2>
+            <p>A short walkthrough of the Chemo-IRL framework and its main results.</p>
+            <div class="video-wrapper mx-auto">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/bCfW8np8ivk?si=s5Ec76G1oIsj0gJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
 
         <section id="architecture" class="my-5">
